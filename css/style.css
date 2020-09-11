@@ -7,10 +7,11 @@
 }
 
 nav{
-    height:8vh;
+    height:7vh;
     display: flex;
     justify-content: space-between;
     line-height: 1.1em;
+
 }
 .logo img{
     width: 40px;
@@ -30,4 +31,22 @@ nav{
 .bar{
     color: red;
     font-size: large;
+}
+.disclaimer{
+    background-color: yellow;
+    padding:20px;
+}
+.medicine img{
+    width:100%;
+}
+.font{
+    font-size: xx-small;
+}
+.medicine {
+
+    text-align: center;
+    background: rgba(0, 0, 0, 0.336); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:white;
+
 }
