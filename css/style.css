@@ -112,5 +112,47 @@ nav {
 .section-1-main-container {
    /*border: 1px solid blue;*/
    margin: 20px 20px;
-
 }
+
+.funding-container {
+   border: 1px solid black;
+}
+
+.funding {
+  /*border: 1px solid red;*/
+ line-height: 30px;
+ color: #f42;
+}
+
+.index {
+  display: flex;
+  justify-content: flex-start;
+ /* border: 1px solid black;*/
+  align-items: center;
+  color: #f42;
+  margin-bottom: 10px;
+}
+
+.index h2 {
+   /*border: 1px solid yellow;*/
+   padding-right: 10px; 
+}
+
+.index .fas {
+  /*border: 1px solid purple;*/
+  font-size: 20px;
+}
+
+.more {
+  /*border: 1px solid red; */
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #f42; 
+}
+
+.funding-container {
+    /*border: 1px solid blue;*/
+    margin: 20px 20px;
+ }
