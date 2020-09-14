@@ -236,7 +236,7 @@ nav {
  }
  .hard-fork-bckg {
      border-color: solid 1px red;
-    background-image: url("../images/l.png");
+    background-image: url("../images/lwc.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -244,9 +244,21 @@ nav {
     height: 40vh;
     
  }
-.over-text{
+.satoshi{
     position: absolute;
-    color: lightgray;
+    border: 1px solid white;
+    color: #fff;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 28px; 
+    padding-left: 12px;  
+}
+
+.satoshi >p {
+    font-size: 13px;
+    font-weight: 100;
 }
 
  .latest{
@@ -254,6 +266,7 @@ nav {
      display: flex;
      background-color:rgb(241, 217, 221);
      height: 15vh;
+     padding-left: 12px; 
  }
 
  .image img{
@@ -278,6 +291,7 @@ nav {
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em;
+    
  }
 
  .hard-forklist > li{
