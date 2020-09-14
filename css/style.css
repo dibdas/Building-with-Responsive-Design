@@ -147,6 +147,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   color: #f42; 
+  margin-bottom: 27px;
 }
 
 .funding-container {
@@ -160,13 +161,15 @@ nav {
      background-color: #f42;
      color: #fff;
      font-weight: 700;
+     padding: 10px 10px 10px 80px;
      
  }
 
  .seed {
    border: 1px solid rgb(248, 245, 245);  
-   padding: 10px;
+   padding: 10px 10px 10px 80px;
    background-color: rgb(216, 201, 201); 
+
  }
 
  .seed h4 {
@@ -192,4 +195,41 @@ nav {
      font-size: 25px;
      font-style: italic;
      color: #fff;
+ }
+
+ .video {
+     /*border: 1px solid purple;*/
+     display: flex;
+     padding-bottom: 10px;
+     /*line-height: 25px; */  
+
+ }
+
+ .video, 
+ .fas {
+     padding-right: 10px;
+ }
+
+ .venture {
+     display: flex;
+ }
+
+ .video-container {
+     /*border: 1px solid pink;*/
+     padding: 10px;
+     /*line-height: 25px;*/
+     border-bottom: 1px solid pink;
+     background-color: whitesmoke;
+ }
+
+ .raises {
+     /*border: 1px solid purple;*/
+     padding: 15px 0 30px 0;
+     font-size: 14px;
+     background-color: whitesmoke;
+ }
+
+ .finsmes {
+     /*border: 1px solid red;*/
+     color: rgb(124, 116, 116);
  }
