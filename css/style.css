@@ -12,7 +12,15 @@ nav {
     display: flex;
     justify-content: space-between;
     line-height: 1.1em;
+    background-color: white;
 
+}
+
+header{
+    position: fixed;
+height: 20  vh;
+top: 0;
+width:100%;
 }
 
 .logo img{
@@ -43,6 +51,9 @@ nav {
 .disclaimer{
     background-color: yellow;
     padding:20px;
+    position: fixed;
+    width:100%;
+    
 }
 
 .medicine img{
