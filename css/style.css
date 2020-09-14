@@ -113,6 +113,7 @@ nav {
 .section-1-main-container {
    /*border: 1px solid blue;*/
    margin: 20px 20px;
+   overflow: hidden;
 }
 
 .funding {
