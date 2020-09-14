@@ -79,6 +79,7 @@ nav {
 
 .latest-news .fas {
     color:  #f42;
+    font-size: 20px;
 }
 
 
@@ -112,10 +113,6 @@ nav {
 .section-1-main-container {
    /*border: 1px solid blue;*/
    margin: 20px 20px;
-}
-
-.funding-container {
-   border: 1px solid black;
 }
 
 .funding {
@@ -155,4 +152,44 @@ nav {
 .funding-container {
     /*border: 1px solid blue;*/
     margin: 20px 20px;
+ }
+
+ .willow {
+     border: 1px solid red;
+     padding: 10px 10px 10px 80px;
+     background-color: #f42;
+     color: #fff;
+     font-weight: 700;
+     
+ }
+
+ .seed {
+   border: 1px solid rgb(248, 245, 245);  
+   padding: 10px;
+   background-color: rgb(216, 201, 201); 
+ }
+
+ .seed h4 {
+     font-weight: 900;
+     font-size: 18px;   
+ }
+
+ .seed h5 {
+     color: rgb(63, 58, 58);
+ }
+
+ .italic {
+     border: 1px solid cornflowerblue;
+     width: 60px;
+     display: block;
+     text-align: center;
+     padding: 10px;
+     position: absolute;
+     margin: 13px 10px 10px 10px;
+     background-color: cornflowerblue;
+     height: 8vh;
+     line-height: 30px;
+     font-size: 25px;
+     font-style: italic;
+     color: #fff;
  }
