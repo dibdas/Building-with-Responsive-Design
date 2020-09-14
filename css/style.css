@@ -11,7 +11,7 @@ nav {
     height:7vh;
     display: flex;
     justify-content: space-between;
-    line-height: 1.1em;
+    /*line-height: 1.1em;*/
     background-color: white;
     /*position: fixed;*/
 
@@ -19,14 +19,29 @@ nav {
 
 header{
     position: fixed;
-    height: 20vh;
+    height: 16vh;
     top: 0;
     width:100%;
     overflow: hidden;
+    z-index: 3;
+}
+
+.logo { 
+   /*border: 1px solid #111;*/
+   /*width: 28vw;*/ 
+   text-align: center;
+   display: flex;
+   align-items: center;
+   /*background-color: #f42;*/
 }
 
 .logo img{
-    width: 40px;
+    width: 28vw;
+    height: 7vh;
+    /*background-size: cover;*/
+    /*color: #fff;*/    
+   /* border: 1px solid #f42;
+    background-color: #f42;*/
 }
 
 .menu-search{
@@ -50,57 +65,64 @@ header{
 
 /* Main section */
 
+.programs {
+    position: absolute;
+    /*border: 1px solid purple;*/
+    background-color: #111;
+    color: #fff;
+    width: 28vw;
+    height: 4vh;
+    text-align: center;
+    line-height: 20px;
+}
 .disclaimer{
     background-color: yellow;
-    padding:20px;
-    position: fixed;
-    width:100%;
+    /*padding:20px;*/
+    /*position: fixed;*/
+    width: 120vw;
+    height: 8vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     /*z-index: 2;*/
     
 }
 
 .medicine {
+    /*position: absolute;*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    /*width: 100%;*/
     height: 40vh;
+    /*border: 1px solid red;*/
 }
 
 .medicine-1 {
+
     background-image: url("../images/2.jpeg");
     margin: 10px;
+    width: 100w;
 }
 
 .medicine-2 {
     background-image: url("../images/3.png");
     margin: 10px;
+    width: 95vw;
 }
 
 .medicine-3 {
     background-image: url("../images/6.jpeg");
     margin: 10px;
+    width: 95vw;
 }
 
-.image-container {
-    overflow: hidden;
-    width: 364px;
-}
-
-
-
-
-
-/*
-.medicine img{
-    width:100%;
+/*.image-container {
+    /*overflow: hidden;
+    width: 350px;
+    border: 1px solid red;
 }*/
-
-/*.font{
-    font-size: xx-small;
-}*/
-
-
 
 .latest-news {
     display: flex;
@@ -220,20 +242,11 @@ header{
      color: rgb(63, 58, 58);
  }
 
- .italic {
-     border: 1px solid cornflowerblue;
-     width: 60px;
-     display: block;
-     text-align: center;
-     padding: 10px;
+ .italic img {
      position: absolute;
-     margin: 13px 10px 10px 10px;
-     background-color: cornflowerblue;
-     height: 8vh;
-     line-height: 30px;
-     font-size: 25px;
-     font-style: italic;
-     color: #fff;
+     width: 60px;
+     height: 10vh;
+     margin: 10px 0 0 10px;
  }
 
  .video {
@@ -273,7 +286,7 @@ header{
      color: rgb(124, 116, 116);
  }
  .hard-fork-bckg {
-     border-color: solid 1px red;
+    /*border-color: solid 1px red;*/
     background-image: url("../images/lwc.jpeg");
     background-repeat: no-repeat;
     background-position: center;
@@ -293,7 +306,7 @@ header{
     justify-content: flex-end;
     line-height: 28px; 
     padding-left: 12px; 
-    z-index: 3; 
+    /*z-index: 3;*/ 
 }
 
 .satoshi >p {
@@ -414,6 +427,7 @@ header{
      width: 100%;
      height:15vh;
  }
+
  .bold{
      color:whitesmoke;
      font-weight: bolder;
