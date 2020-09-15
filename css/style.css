@@ -523,10 +523,8 @@ header{
         width: 60px;
         height: 7vh;
         margin: 10px 0 0 10px;
-
-
+    }
  }
-
 
  .hard-fork-bckg {
     /*border-color: solid 1px red;*/
@@ -624,9 +622,30 @@ header{
     color: #f42; 
  }
 
+ @media only screen and (min-width: 768px) {
+     /*section hard forks*/
+
+     .section-2 {
+       /*border: 1px solid purple;*/
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 20px;  
+     }
+ }
+
  .cancel {
      text-decoration-line: line-through;
  }
+ @media only screen and (min-width: 768px) {
+
+ .main-last-box {
+    /*border: 1px solid black;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+}
 
  footer{
      color:white;
