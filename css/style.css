@@ -33,6 +33,7 @@ header{
 
 @media only screen and (min-width: 768px) {
     
+    .disclaimer,
     .logo img,
     .search,
     .bar,
@@ -41,11 +42,13 @@ header{
     }
 
     .top-nav-container {
+        position: absolute;
         display: flex;
         justify-content: space-between;
         /*border: 1px solid purple;*/
         width: 100%;
-        /*height: 9vh;*/
+        height: 9vh;
+        overflow: hidden;
     }
 
     .top-nav {
@@ -65,8 +68,8 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /*border: 1px solid purple;*/
-        height: 5.85vh;
+        border: 1px solid purple;
+        height: 6.85vh;
         background-color: #fff;
     }
 
@@ -93,24 +96,17 @@ header{
        height: 9vh;
        width: 10vw;
    }
-   .disclaimer{
-    background-color: #ffff00;
-    /*padding:20px;*/
-    /*position: fixed;*/
-    width: 100vw;
-    height: 8vh;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    z-index: 9;
+
+   
+
+   
     
 }
 
    
     
     
-}
+
 
 .logo { 
    /*border: 1px solid #111;*/
@@ -220,53 +216,61 @@ header{
     width: 350px;
     border: 1px solid red;
 }*/
+
+.satoshi-1 {
+    display: none;
+}
+
 @media only screen and (min-width: 768px) {
     .image-pad {
         display:flex;
-        height:60vh;
+        /*height:60vh;*/
         overflow: hidden;
         margin-top:40px;
+        padding-top:20px;
+        border: 1px solid green;
     }
 
     .medi-col {
         display:flex;
         flex-direction: column;
         width:40%;
-        border: 1px solid red;
-        height:65vh;
+        border: 3px solid red;
+        height: 65vh;
         justify-content:center;
     }
 
-    .medi-pad-1 {
+    .medicine-1 {
         height:53.5vh;
         width:60%;
         
     }
 
-    .medi-pad-2 {
-        width:100%;
-        height: 20vh ;
+    .medicine-2 {
+        width: 88%;
+        height: 22vh;
+        margin-bottom: 0;
     }
 
-    .medi-pad-3 {
-        width: 100%;
+    .medicine-3 {
+        width: 88%;
         height: 20vh;
     }
 
-.satoshi{
-    position: absolute;
+ .satoshi {
+    /*position: absolute;*/
     /*border: 1px solid white;*/
-    border: 5px solid red;
+    border: 1px solid red;
     color: #fff;
-    height: 50vh;
+    /*height: 10vh;*/
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     flex-wrap: wrap;
     width: 35%;
     /*z-index: 3;*/ 
-}
-/*
+  }
+ /*
     .satoshi-pad {
         position: relative;
         border: 5px solid red;
@@ -280,12 +284,12 @@ header{
     */
 }
 
-.latest-news {
+ .latest-news {
     display: flex;
     justify-content: flex-start;
     align-items: center;  
     margin-bottom: 18px; 
-}
+ }
 
 .latest-news h2 {
     padding-right: 10px;
