@@ -336,6 +336,27 @@ header{
    overflow: hidden;
 }
 
+@media only screen and (min-width: 768px) {
+    .section-1-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid green;
+        margin: 0;
+     }
+
+        .section-1 {
+            display:flex;
+            flex-direction: column;
+            width:100px;
+        }
+        .section-1-text{
+            width: 200px;
+        }
+        .section-1 img {
+         width: 200px;
+     }
+}
+
 .funding {
   /*border: 1px solid red;*/
  line-height: 30px;
