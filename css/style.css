@@ -27,6 +27,81 @@ header{
     z-index: 3;
 }
 
+.top-nav-container {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .logo img,
+    .search,
+    .bar,
+    .programs {
+        display: none;
+    }
+    .top-nav-container {
+        display: flex;
+        justify-content: space-between;
+        /*border: 1px solid purple;*/
+        width: 100%;
+        /*height: 9vh;*/
+    }
+
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #111;
+        width: 90vw;
+        font-size: 13px;
+        line-height: 16px;
+        padding: 5px 15px;
+        background-color: #111;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .top-2-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /*border: 1px solid purple;*/
+        height: 5.85vh;
+        background-color: #fff;
+    }
+
+    .search-m {
+        border-left: .1px solid rgb(185, 179, 179);
+        border-right: 1px solid rgb(185, 179, 179);
+        padding: 12px;
+    }
+
+    .top-2-nav {
+        display: flex;
+        justify-content: space-around;
+        /*border: 1px solid blue;*/
+        width: 75vw;
+        color: rgb(168, 158, 158);
+        font-weight: 600;
+        
+    }
+
+    
+
+   .logo-media {
+       display: block;
+   }
+
+   .logo-media img {
+       height: 9vh;
+       width: 10vw;
+   }
+    
+
+   
+    
+    
+}
+
 .logo { 
    /*border: 1px solid #111;*/
    /*width: 28vw;*/ 
