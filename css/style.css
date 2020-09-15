@@ -95,11 +95,7 @@ header{
    .logo-media img {
        height: 9vh;
        width: 10vw;
-   }
-
-   
-
-   
+   }   
     
 }
 
@@ -217,7 +213,7 @@ header{
     border: 1px solid red;
 }*/
 
-.satoshi-1 {
+.satochi-container {
     display: none;
 }
 
@@ -226,22 +222,22 @@ header{
         display:flex;
         /*height:60vh;*/
         overflow: hidden;
-        margin-top:40px;
+        /*margin-top:40px;
         padding-top:20px;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
     }
 
     .medi-col {
         display:flex;
         flex-direction: column;
         width:40%;
-        border: 3px solid red;
+        /*border: 3px solid red;*/
         height: 65vh;
         justify-content:center;
     }
 
     .medicine-1 {
-        height:53.5vh;
+        height:55vh;
         width:60%;
         
     }
@@ -258,30 +254,31 @@ header{
     }
 
  .satoshi {
-    /*position: absolute;*/
-    /*border: 1px solid white;*/
-    border: 1px solid red;
-    color: #fff;
-    /*height: 10vh;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    width: 35%;
-    /*z-index: 3;*/ 
+    width: 35%; 
   }
- /*
-    .satoshi-pad {
-        position: relative;
-        border: 5px solid red;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        width: 35%;
-    }
-    */
+
+  .satochi-container {
+      display: block;
+      width: 31vw;
+      overflow: hidden;
+      padding: 8px;
+  }
+
+  .satoshi-1 {
+      display: flex;
+      /*border: 1px solid blue;*/
+      position: absolute;
+      color: #fff;
+      height: 30vh;
+      width: 30vw;
+      justify-content: center;
+      align-items: flex-start;
+      flex-flow: column wrap;
+
+  }
+
+
+ 
 }
 
  .latest-news {
@@ -340,7 +337,7 @@ header{
     .section-1-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        border: 1px solid green;
+        /*border: 1px solid green;*/
         margin: 0;
      }
 
