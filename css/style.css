@@ -623,8 +623,7 @@ header{
  }
 
  @media only screen and (min-width: 768px) {
-     /*section hard forks*/
-
+    
      .section-2 {
        /*border: 1px solid purple;*/
        display: grid;
@@ -636,18 +635,19 @@ header{
  .cancel {
      text-decoration-line: line-through;
  }
+
  @media only screen and (min-width: 768px) {
 
  .main-last-box {
     /*border: 1px solid black;*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 5px;
   }
 
 }
 
- footer{
+ /*footer{
      color:white;
      background-color: black;
      height: 33vh;
@@ -695,4 +695,97 @@ header{
      font-weight: bolder;
      font-size:large;
      cursor: pointer;
+ }*/
+
+ .icon-container {
+     /*border: 1px solid red;*/
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     height: 20vh;
+     background-color:rgba(7, 6, 6, 0.815);
  }
+
+ .icons {
+     /*border: 1px solid hotpink;*/
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 85%;
+     height: 8vh;
+ }
+
+ .footer-text {
+     /*border: 1px solid purple;*/
+     display: flex;
+     justify-content: space-around;
+     width: 85%;
+     font-size: 14px;
+     height: 7vh;
+     color: #fff;
+ }
+
+ .icons
+ .fa {
+     border: 1px solid rgba(44, 39, 39, 0.815);
+     padding: 10px;
+     border-radius: 50%;
+     background-color: rgba(44, 39, 39, 0.815);
+     color: #fff;
+ }
+
+ .footer-bottom {
+     /*border: 1px solid red;*/
+     height: 15vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+     background-color: #111;
+ }
+
+ .bold{
+    color:whitesmoke;
+    font-weight: bolder;
+    font-size:large;
+    cursor: pointer;
+}
+
+ 
+
+ @media only screen and (min-width: 768px) {
+
+    .icons {
+        /*border: 1px solid hotpink;*/
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+        height: 8vh;   
+    }
+
+    .footer-text {
+        /*border: 1px solid purple;*/
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        font-size: 14px;
+        height: 7vh;
+        color: #fff;
+    }
+
+    .footer-bottom {
+        /*border: 1px solid red;*/
+        height: 15vh;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .bold { 
+        font-size: 15px;  
+    }
+ } 
