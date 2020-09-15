@@ -39,6 +39,7 @@ header{
     .programs {
         display: none;
     }
+
     .top-nav-container {
         display: flex;
         justify-content: space-between;
@@ -81,11 +82,8 @@ header{
         /*border: 1px solid blue;*/
         width: 75vw;
         color: rgb(168, 158, 158);
-        font-weight: 600;
-        
+        font-weight: 600;    
     }
-
-    
 
    .logo-media {
        display: block;
@@ -95,7 +93,7 @@ header{
        height: 9vh;
        width: 10vw;
    }
-    
+
 
    
     
@@ -210,6 +208,48 @@ header{
     width: 350px;
     border: 1px solid red;
 }*/
+@media only screen and (min-width: 768px) {
+    .image-pad {
+        display:flex;
+        height:60vh;
+        overflow: hidden;
+    }
+
+    .medi-col {
+        display:flex;
+        flex-direction: column;
+        width:40%;
+        border: 1px solid red;
+        height:65vh;
+        justify-content:center;
+    }
+
+    .medi-pad-1 {
+        height:53.5vh;
+        width:60%;
+        
+    }
+
+    .medi-pad-2 {
+        width:100%;
+        height: 20vh ;
+    }
+
+    .medi-pad-3 {
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .satoshi-pad {
+        position: relative;
+        border: 1px solid white;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 65%;
+    }
+}
 
 .latest-news {
     display: flex;
