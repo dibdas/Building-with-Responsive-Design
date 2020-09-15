@@ -276,8 +276,6 @@ header{
       flex-flow: column wrap;
 
   }
-
-
  
 }
 
@@ -352,8 +350,6 @@ header{
         .section-1 img {
          width: 200px;
      }
-
-
     
 }
 
@@ -398,7 +394,7 @@ header{
  }
 
  .willow {
-     border: 1px solid red;
+     /*border: 1px solid blue;*/
      padding: 10px 10px 10px 80px;
      background-color: #f42;
      color: #fff;
@@ -466,6 +462,72 @@ header{
      /*border: 1px solid red;*/
      color: rgb(124, 116, 116);
  }
+
+ /*.funding-m-container {
+     display: none;
+ }*/
+
+ @media only screen and (min-width: 768px) {
+    .funding-m-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .top-funding {
+        display: flex;
+        /*line-height: 10px;*/
+        /*text-align: center;*/
+       /* align-items: flex-end;*/
+        justify-content: space-between;
+        /*border: 1px solid black;*/
+        width: 53%;
+        font-size: 16px;
+    }
+
+    .index {
+        /*border: 1px solid blue;*/
+        height: 3.9vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .index .fas {
+        /*border: 1px solid black;*/
+        display: flex;
+        align-items: flex-end;
+        height: 2.8vh;
+        font-weight: 700;
+    }
+
+    .more {
+        /*border: 1px solid red; */
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #f42; 
+        margin-bottom: 27px;
+      }
+
+      .grid-willow {
+          /*border: 1px solid black;*/
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 20px;
+          /*height: 40vh;*/
+      }
+
+      .italic img {
+        position: absolute;
+        width: 60px;
+        height: 7vh;
+        margin: 10px 0 0 10px;
+
+
+ }
+
+
  .hard-fork-bckg {
     /*border-color: solid 1px red;*/
     background-image: url("../images/lwc.jpeg");
