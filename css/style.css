@@ -737,6 +737,7 @@ header{
 
      
  }
+
  @media only screen and (min-width: 1000px) {
     .grid-willow {
         /*border: 1px solid black;*/
@@ -857,6 +858,16 @@ header{
        gap: 20px;  
      }
  }
+ @media only screen and (min-width: 1000px) {
+     .section-2 {
+         grid-template-columns:repeat(3,1fr) ;
+     }
+     .satoshi {
+         width: 30%;
+         flex-wrap: wrap;
+     }
+ }
+
 
  .cancel {
      text-decoration-line: line-through;
