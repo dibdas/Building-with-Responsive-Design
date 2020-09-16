@@ -33,6 +33,13 @@ header{
 
 @media only screen and (min-width: 768px) {
     
+    .shift,
+    .top-2-nav-rt,
+    .tickets,
+    .time-count,
+    .tnw-r,
+    .top-nav-rtaside,
+    .top-nav-ltaside,
     .disclaimer,
     .logo img,
     .search,
@@ -68,7 +75,7 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border: 1px solid purple;
+        /*border: 1px solid purple;*/
         height: 6.85vh;
         background-color: #fff;
     }
@@ -99,8 +106,134 @@ header{
     
 }
 
-@media only screen and (min-width: 1020px) {
 
+@media only screen and (min-width: 1000px) {
+
+    .logo-media,
+    .search-m {
+        display: none;
+    }
+
+    .top-nav-container {
+        /*border: 3px solid purple;*/
+        flex-direction: column;
+        /*height: 8vh;*/
+        
+    }
+
+    /*.top-nav-right {
+        border: 1px solid green;
+    }*/
+
+    .top-nav {
+        width: 100vw;
+        
+    }
+
+    .top-nav-ltaside {
+        /*border: 1px solid hotpink;*/
+        display: flex;
+        width: 25vw;
+        justify-content: space-between;
+    }
+
+    .top-nav-rtaside {
+        /*border: 1px solid purple;*/
+        display: flex;
+        width: 15vw;
+        justify-content: space-around;
+    }
+
+    .tnw-r {
+        display: flex;
+        /*border: 1px solid black;*/
+        align-items: center;
+        font-weight: 700;
+        line-height: 15px;
+    }
+
+    .tnw-r p {
+        font-size: 18px;
+    }
+
+    .tnw-r img {
+        
+        /*border: 1px solid red;*/
+        width: 5vw;
+    }
+
+    .time-count {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        /*border: 1px solid red;*/
+        line-height: 25px;
+        color: #ff0000;
+    }
+
+    .tickets {
+        display: block;
+        /*border: 1px solid blue;*/
+        background-color: #0cc;
+        color: #fff;
+        font-weight: 700; 
+        border-radius: 3px;
+        text-align: center;
+        font-size: 11px;
+        line-height: 28px;  
+        padding: 0 12px;
+    }
+
+    .top-2-container {
+        height: 7.85vh;
+        align-items: center;
+        
+    }
+
+    .top-2-nav {
+        /*border: 1px solid blue;*/
+        width: 50vw;
+        font-weight: 400;  
+        align-items: flex-start;
+        height: 5vh;  
+    }
+
+    .top-2-nav-rt {
+        display: flex;
+        /*border: 1px solid purple;*/
+        width: 30vw;
+        height: 6vh;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .shift {
+        display: block;
+    }
+
+    .search-big {
+        display: flex;
+        height: 4.2vh;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid rgb(226, 213, 213);
+        padding: 10px;
+    }
+
+    .disclaimer p {
+        /*border: 1px solid green;*/
+        display: flex;
+        justify-content: flex-start;
+        width: 97%;
+        height: 5vh;
+        align-items: flex-end;
+        line-height: 25px;
+    }
+
+    .fa-arrow-right {
+        /*border: 1px solid red;*/
+        height: 3vh;
+    }
 }
 
    
