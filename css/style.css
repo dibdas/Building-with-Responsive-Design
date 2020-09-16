@@ -495,7 +495,9 @@ header{
 .section-1-grid {
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        gap: 20px;
      }
+
 
 }
 
@@ -857,11 +859,20 @@ header{
        grid-template-columns: repeat(2, 1fr);
        gap: 20px;  
      }
+     .latest{
+         margin-top:2px;
+         height: auto;
+     }
  }
  @media only screen and (min-width: 1000px) {
-     
+
      .section-2 {
          grid-template-columns:repeat(3,1fr) ;
+     }
+     .latest {
+         margin-top:5px;
+         height:14vh;
+
      }
      .satoshi {
          width: 30%;
@@ -883,6 +894,24 @@ header{
     gap: 5px;
   }
 
+}
+@media only screen and (min-width: 1000px) {
+    .main-last-box { 
+        grid-template-columns: repeat(4, 1fr);
+        gap:20px;
+    }
+    .section-1 {
+        width: auto;
+    }
+    .section-1 img {
+        width:100%;
+    }
+    .section-1-text {
+        width:100%;
+    }
+    .see{
+        font-size:20px;
+    }
 }
 
  .icon-container {
@@ -941,8 +970,6 @@ header{
     cursor: pointer;
 }
 
- 
-
  @media only screen and (min-width: 768px) {
 
     .icons {
@@ -977,3 +1004,15 @@ header{
         font-size: 15px;  
     }
  } 
+
+ @media only screen and (min-width: 768px) {
+     .icons{
+        
+         width:35%;
+         font-size: 16px;
+     }
+     .footer-text{
+         
+         width:30%;
+     }
+ }
