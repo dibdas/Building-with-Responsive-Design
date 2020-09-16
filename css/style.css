@@ -664,6 +664,10 @@ header{
           /*height: 40vh;*/
       }
 
+      .willow-2 {
+          display:none;
+      }
+
       .italic img {
         position: absolute;
         width: 60px;
@@ -732,6 +736,19 @@ header{
       }
 
      
+ }
+ @media only screen and (min-width: 1000px) {
+    .grid-willow {
+        /*border: 1px solid black;*/
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        /*height: 40vh;*/
+    }
+    .willow-2{
+        display: grid;
+    }
+
  }
  
 
