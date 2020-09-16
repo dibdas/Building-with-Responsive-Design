@@ -539,6 +539,69 @@ header{
     }
  }
 
+ @media only screen and (min-width: 1000px) {
+    .funding-m-container {
+        flex-direction: row;
+        justify-content: space-between;
+    
+
+    }
+
+    .top-funding {
+    
+        /*line-height: 10px;*/
+        /*text-align: center;*/
+       /* align-items: flex-end;*/
+        /*border: 1px solid black;*/
+        width: 33%;
+        
+    
+    }
+
+    .index {
+        /*border: 1px solid blue;*/
+        margin-top:3.5px;
+        height: 4vh;
+        
+    }
+
+    .index .fas {
+        margin-top: 3px;
+    }
+
+    .more {
+        /*border: 1px solid red; */
+
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        color: #f42; 
+        height:auto;
+        width:50%;
+        font-size: 20px;
+        
+      }
+      .border{
+          border-right: 1px solid red;
+      }
+      .info
+       {
+          width: 80px;
+      }
+      .updates {
+          width:200px;
+          text-align: center;
+          
+      }
+      .see-more{
+        width:100px;
+        text-align: center;
+    
+      }
+
+     
+ }
+ 
+
  .hard-fork-bckg {
     /*border-color: solid 1px red;*/
     background-image: url("../images/lwc.jpeg");
