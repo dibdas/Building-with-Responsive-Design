@@ -11,11 +11,8 @@ nav {
     height:7vh;
     display: flex;
     justify-content: space-between;
-    /*line-height: 1.1em;*/
     background-color: white;
-    /*position: fixed;*/
     width: 100vw;
-
 }
 
 header{
@@ -121,10 +118,6 @@ header{
         
     }
 
-    /*.top-nav-right {
-        border: 1px solid green;
-    }*/
-
     .top-nav {
         width: 100vw;
         
@@ -195,7 +188,8 @@ header{
         width: 50vw;
         font-weight: 400;  
         align-items: flex-start;
-        height: 5vh;  
+        height: 5vh; 
+        font-size: 15px; 
     }
 
     .top-2-nav-rt {
@@ -392,6 +386,7 @@ header{
 
  .satoshi {
     width: 35%; 
+    font-size: 13px;
   }
 
   .satochi-container {
@@ -403,7 +398,6 @@ header{
 
   .satoshi-1 {
       display: flex;
-      /*border: 1px solid blue;*/
       position: absolute;
       color: #fff;
       height: 30vh;
@@ -411,10 +405,56 @@ header{
       justify-content: center;
       align-items: flex-start;
       flex-flow: column wrap;
+      font-size: 13px;
 
   }
   
  
+}
+
+@media only screen and (min-width: 1000px) {
+  
+    .medicine-1 {
+        height: 74.78vh;
+        /*border: 1px solid purple;*/
+        
+    }
+
+    .medicine-2 {
+        height: 105vh; 
+        width: 94%; 
+    }
+
+    .medicine-3 {   
+        height: 105vh;
+        /*border: 1px solid red;*/
+        margin-bottom: 0;
+        width: 94%; 
+    }
+
+    .image-pad {
+        align-items: flex-end;
+        /*border: 3px solid green;*/
+        height: 90vh;
+        margin-bottom: 40px;
+    }
+
+    .medi-col {
+        /*border: 1px solid red;*/
+        height: 78.4vh;
+        justify-content:center;
+    }
+
+    .satoshi {
+        height: 30vh;
+      }
+
+      .satoshi-1 {
+        /*border: 1px solid blue;*/
+        color: #fff;
+        height: 38vh;
+        justify-content: flex-end;   
+    }
 }
 
  .latest-news {
@@ -687,18 +727,10 @@ header{
     }
 
     .top-funding {
-    
-        /*line-height: 10px;*/
-        /*text-align: center;*/
-       /* align-items: flex-end;*/
-        /*border: 1px solid black;*/
         width: 33%;
-        
-    
     }
 
     .index {
-        /*border: 1px solid blue;*/
         margin-top:3.5px;
         height: 4vh;
         
@@ -709,16 +741,14 @@ header{
     }
 
     .more {
-        /*border: 1px solid red; */
-
         flex-direction: row-reverse;
         justify-content: flex-start;
         color: #f42; 
         height:auto;
         width:50%;
-        font-size: 20px;
-        
+        font-size: 20px;  
       }
+
       .border{
           border-right: 1px solid red;
       }
