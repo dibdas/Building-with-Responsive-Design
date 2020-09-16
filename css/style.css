@@ -99,6 +99,10 @@ header{
     
 }
 
+@media only screen and (min-width: 1020px) {
+
+}
+
    
     
     
@@ -276,6 +280,7 @@ header{
       flex-flow: column wrap;
 
   }
+  
  
 }
 
@@ -338,7 +343,6 @@ header{
         /*border: 1px solid green;*/
         margin: 0;
      }
-
         .section-1 {
             display:flex;
             flex-direction: column;
@@ -351,6 +355,15 @@ header{
          width: 200px;
      }
     
+}
+
+@media only screen and (min-width: 1000px) {
+
+.section-1-grid {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+     }
+
 }
 
 .funding {
