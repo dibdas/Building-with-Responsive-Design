@@ -2,7 +2,9 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
+
+
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,9 +12,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML,CSS
+- media queries
+- Flex,Grid
 
 ## Live Demo
 
@@ -44,22 +46,21 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+* Github:[@DibDas](https://github.com/dibdas)
+* Twitter:[@DIBYEND78120480](https://twitter.com/DIBYEND78120480)
+* LinkedIn:[Dibyendu Das](https://www.linkedin.com/in/dibye
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@enaburekhan](https://github.com/enaburekhan)
+- Twitter: [@enaburekhaneric](https://twitter.com/enaburekhaneric)
+- Linkedin: [@ericenaburekhan](https://www.linkedin.com/in/eric-enaburekhan-801a28100/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/dibdas/Building-with-Responsive-Design/issues).
 
 ## Show your support
 
