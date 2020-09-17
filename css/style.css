@@ -94,12 +94,10 @@ header {
   height: 8vh;
   justify-content: center;
   display: flex;
-  /*border: 1px solid black;*/
   font-size: 13px;
 }
 
 .disclaimer .fas {
-    /*border: 1px solid red;*/
     height: 5vh;
     width: 4.5vw;
     display: flex;
