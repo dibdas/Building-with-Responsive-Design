@@ -1,25 +1,25 @@
 *,
-::before, 
+::before,
 ::after {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .dflex {
-    display: flex;
+  display: flex;
 }
 
 .jspace {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .alignc {
-    align-items: center;
+  align-items: center;
 }
 
 .textc {
-    text-align: center;
+  text-align: center;
 }
 
 .latest-news h2,
@@ -29,144 +29,141 @@
 .more,
 .news-last,
 .see {
-    color: #f42;
+  color: #f42;
 }
 
-/*Nav bar section */
+/* Nav bar section */
 .nav-bar {
-    height:7vh;
-    background-color: white;
-    width: 100vw;
+  height: 7vh;
+  background-color: white;
+  width: 100vw;
 }
 
-header{
-    position: fixed;
-    height: 16vh;
-    top: 0;
-    width:100%;
-    overflow: hidden;
-    z-index: 3;
+header {
+  position: fixed;
+  height: 16vh;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 3;
 }
 
-.logo img{
-    width: 28vw;
-    height: 7vh;
+.logo img {
+  width: 28vw;
+  height: 7vh;
 }
 
-.menu-search{
-    justify-content: flex-end;
+.menu-search {
+  justify-content: flex-end;
 }
 
-.p-10{
-    padding: 10px;
+.p-10 {
+  padding: 10px;
 }
 
-.search{
-    color:grey;
+.search {
+  color: grey;
 }
-.bar{
-    color: red;
-    font-size: large;
+
+.bar {
+  color: red;
+  font-size: large;
 }
 
 /* Main section */
 
 .programs {
-    position: absolute;
-    background-color: #111;
-    color: #fff;
-    width: 28vw;
-    height: 3vh;
-    line-height: 20px;
+  position: absolute;
+  background-color: #111;
+  color: #fff;
+  width: 28vw;
+  height: 3vh;
+  line-height: 20px;
 }
 
-.disclaimer{
-    background-color: #ffff00;
-    width: 100vw;
-    height: 8vh;
-    justify-content: center;
-    display: flex;
+.disclaimer {
+  background-color: #ff0;
+  width: 100vw;
+  height: 8vh;
+  justify-content: center;
+  display: flex;
 }
 
 .image-container {
-    width: 100vw;
-    margin-right: 20px;
+  width: 100vw;
+  margin-right: 20px;
 }
 
 .medicine {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
 }
 
 .medicine-1 {
-
-    background-image: url("../images/2.jpeg");
-    margin-left: 10px;
-    
-    width: 95vw;
+  background-image: url("../images/2.jpeg");
+  margin-left: 10px;
+  width: 95vw;
 }
 
 .medicine-2 {
-    background-image: url("../images/3.png");
-    margin: 10px;
-    width: 95vw;
+  background-image: url("../images/3.png");
+  margin: 10px;
+  width: 95vw;
 }
 
 .medicine-3 {
-    background-image: url("../images/6.jpeg");
-    margin: 10px;
-    width: 95vw;
+  background-image: url("../images/6.jpeg");
+  margin: 10px;
+  width: 95vw;
 }
 
- .latest-news {
-    justify-content: flex-start; 
-    margin-bottom: 18px; 
- }
+.latest-news {
+  justify-content: flex-start;
+  margin-bottom: 18px;
+}
 
 .latest-news h2 {
-    padding-right: 10px;
-    font-weight: 900;
+  padding-right: 10px;
+  font-weight: 900;
 }
 
 .latest-news .fas {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-
-
 .section-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 .section-1 img {
-   width: 100px; 
+  width: 100px;
 }
 
 .section-1-text {
-   font-size: 13px; 
-   display: block;
-   line-height: 20px;
-   font-weight: 700;
-   color: #111;
-   width: 275px;
+  font-size: 13px;
+  display: block;
+  line-height: 20px;
+  font-weight: 700;
+  color: #111;
+  width: 275px;
 }
 
 .section-1-lastp {
-    color: rgb(116, 112, 112);
+  color: rgb(116, 112, 112);
 }
 
 .section-1-main-container {
-   margin: 20px 20px;
-   overflow: hidden;
+  margin: 20px 20px;
+  overflow: hidden;
 }
 
 .funding {
- line-height: 30px;
+  line-height: 30px;
 }
 
 .index {
@@ -174,8 +171,7 @@ header{
 }
 
 .index h2 {
-   padding-right: 10px;
-   
+  padding-right: 10px;
 }
 
 .index .fas {
@@ -190,699 +186,698 @@ header{
 }
 
 .funding-container {
-    margin: 20px 20px;
- }
+  margin: 20px 20px;
+}
 
- .willow {
-     padding: 10px 10px 10px 80px;
-     background-color: #f42;
-     color: #fff;
-     font-weight: 700;
-     padding: 10px 10px 10px 80px;   
- }
+.willow {
+  padding: 10px 10px 10px 80px;
+  background-color: #f42;
+  color: #fff;
+  font-weight: 700;
+}
 
- .seed {
-   border: 1px solid rgb(248, 245, 245);  
-   padding: 10px 10px 10px 80px;
-   background-color: rgb(216, 201, 201); 
+.seed {
+  border: 1px solid rgb(248, 245, 245);
+  padding: 10px 10px 10px 80px;
+  background-color: rgb(216, 201, 201);
+}
 
- }
+.seed h4 {
+  font-weight: 900;
+  font-size: 18px;
+}
 
- .seed h4 {
-     font-weight: 900;
-     font-size: 18px;   
- }
+.seed h5 {
+  color: rgb(63, 58, 58);
+}
 
- .seed h5 {
-     color: rgb(63, 58, 58);
- }
+.italic img {
+  position: absolute;
+  width: 60px;
+  height: 10vh;
+  margin: 10px 0 0 10px;
+}
 
- .italic img {
-     position: absolute;
-     width: 60px;
-     height: 10vh;
-     margin: 10px 0 0 10px;
- }
+.video {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
 
- .video {
-     padding-bottom: 10px;
- }
+.video-container {
+  padding: 10px;
+  border-bottom: 1px solid pink;
+  background-color: whitesmoke;
+}
 
- .video, 
- .fas {
-     padding-right: 10px;
- }
+.raises {
+  padding: 15px 0 30px 0;
+  font-size: 14px;
+  background-color: whitesmoke;
+}
 
- .video-container {
-     padding: 10px;
-     border-bottom: 1px solid pink;
-     background-color: whitesmoke;
- }
+.finsmes {
+  color: rgb(124, 116, 116);
+}
 
- .raises {
-     padding: 15px 0 30px 0;
-     font-size: 14px;
-     background-color: whitesmoke;
- }
-
- .finsmes {
-     color: rgb(124, 116, 116);
- }
- 
-
- .hard-fork-bckg {
-    background-image: url("../images/lwc.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 40vh;
-    
- }
+.hard-fork-bckg {
+  background-image: url("../images/lwc.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
 
 .satoshi {
-    position: absolute;
-    color: #fff;
-    height: 40vh;
-    flex-direction: column;
-    justify-content: flex-end;
-    line-height: 28px; 
-    padding-left: 12px; 
+  position: absolute;
+  color: #fff;
+  height: 40vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 28px;
+  padding-left: 12px;
 }
 
-.satoshi >p {
-    font-size: 13px;
-    font-weight: 100;
+.satoshi > p {
+  font-size: 13px;
+  font-weight: 100;
 }
 
- .latest{
-     color:red;
-     background-color:rgb(241, 217, 221);
-     height: 15vh;
-     padding-left: 12px; 
- }
-
- .image img{
-     width: 90px;
-     height: 80px;
- }
-
- .hard-forklist{
-     line-height: 30px;
-     display: block;
-     list-style-type: none;
-     margin-top: 1em;
-     margin-bottom: 1em;
-     margin-left: 0;
-     margin-right: 0;
-     padding-left: 25px;
- }
-
- ul li::before{
-    content: "\2022";
-    color:red;
-    font-weight: bold; 
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em;
-    
- }
-
- .hard-forklist > li{
-     display: inline-block;
-     border-bottom: 1px solid lightgray;
- }
-
- .deals {
-     margin: 20px 0 30px 0;
- }
-
- .news-last {
-     width: 150px;
-     font-weight: 700;
- }
-
- .deals
- .fas {
-     font-size: 20px;
- }
-
- .see {
-    font-size: 14px;
- }
-
-
- .cancel {
-     text-decoration-line: line-through;
- }
-
- .icon-container {
-     flex-direction: column;
-     justify-content: space-around;
-     height: 20vh;
-     background-color:rgba(7, 6, 6, 0.815);
- }
-
- .icons {
-     justify-content: space-around;
-     width: 85%;
-     height: 8vh;
- }
-
- .footer-text {
-     justify-content: space-around;
-     width: 77%;
-     font-size: 12px;
-     height: 7vh;
-     color: #fff;
- }
-
- .icons
- .fa {
-     border: 1px solid rgba(44, 39, 39, 0.815);
-     padding: 10px;
-     border-radius: 50%;
-     background-color: rgba(44, 39, 39, 0.815);
-     color: #fff;
- }
-
- .footer-bottom {
-     height: 15vh;
-     flex-direction: column;
-     justify-content: center;
-     color: #fff;
-     font-size: 13px;
-     background-color: #111;
- }
-
- .bold{
-    color:whitesmoke;
-    font-weight: bolder;
-    font-size:16px;
-    cursor: pointer;
+.latest {
+  color: red;
+  background-color: rgb(241, 217, 221);
+  height: 15vh;
+  padding-left: 12px;
 }
 
-.top-nav-container, 
-.satochi-container, 
+.image img {
+  width: 90px;
+  height: 80px;
+}
+
+.hard-forklist {
+  line-height: 30px;
+  display: block;
+  list-style-type: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 25px;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.hard-forklist > li {
+  display: inline-block;
+  border-bottom: 1px solid lightgray;
+}
+
+.deals {
+  margin: 20px 0 30px 0;
+}
+
+.news-last {
+  width: 150px;
+  font-weight: 700;
+}
+
+.deals .fas {
+  font-size: 20px;
+}
+
+.see {
+  font-size: 14px;
+}
+
+.cancel {
+  text-decoration-line: line-through;
+}
+
+.icon-container {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20vh;
+  background-color: rgba(7, 6, 6, 0.815);
+}
+
+.icons {
+  justify-content: space-around;
+  width: 85%;
+  height: 8vh;
+}
+
+.footer-text {
+  justify-content: space-around;
+  width: 77%;
+  font-size: 12px;
+  height: 7vh;
+  color: #fff;
+}
+
+.icons .fa {
+  border: 1px solid rgba(44, 39, 39, 0.815);
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgba(44, 39, 39, 0.815);
+  color: #fff;
+}
+
+.footer-bottom {
+  height: 15vh;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  background-color: #111;
+}
+
+.bold {
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.top-nav-container,
+.satochi-container,
 .willow-2 {
-    display: none;
+  display: none;
 }
 
- @media only screen and (min-width: 768px) {
-    
-    .willow-2,
-    .shift,
-    .top-2-nav-rt,
-    .tickets,
-    .time-count,
-    .tnw-r,
-    .logo img,
-    .search,
-    .bar,
-    .programs {
-        display: none;
-    }
-    
-    .top-nav-container, .top-nav, .top-nav-ltaside, .top-nav-rtaside, .top-2-container, .top-2-nav, .image-pad, .medi-col,
-     .satoshi-1, .section-1, .funding-m-container, .top-funding, .index, .index .fas, .more, .icons, .footer-text, 
-     .footer-bottom {
-        display: flex;
-    }
+@media only screen and (min-width: 768px) {
+  .willow-2,
+  .shift,
+  .top-2-nav-rt,
+  .tickets,
+  .time-count,
+  .tnw-r,
+  .logo img,
+  .search,
+  .bar,
+  .programs {
+    display: none;
+  }
 
-    .top-nav-container, .top-nav, .top-nav-ltaside, .top-nav-rtaside, .top-2-container, 
-    .top-funding {
-        justify-content: space-between;
-    }
+  .top-nav-container,
+  .top-nav,
+  .top-nav-ltaside,
+  .top-nav-rtaside,
+  .top-2-container,
+  .top-2-nav,
+  .image-pad,
+  .medi-col,
+  .satoshi-1,
+  .section-1,
+  .funding-m-container,
+  .top-funding,
+  .index,
+  .index .fas,
+  .more,
+  .icons,
+  .footer-text,
+  .footer-bottom {
+    display: flex;
+  }
 
-    .section-1-grid, .grid-willow, .section-2,
-    .main-last-box {
-        display: grid;
-    }
-    
-    .section-1-grid, .grid-willow,
-    .main-last-box {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
-    .top-nav-container {
-        position: absolute;
-        width: 100%;
-        height: 7vh;
-        overflow: hidden;
-       
-    }
+  .top-nav-container,
+  .top-nav,
+  .top-nav-ltaside,
+  .top-nav-rtaside,
+  .top-2-container,
+  .top-funding {
+    justify-content: space-between;
+  }
 
-    .top-nav {
-        width: 90vw;
-        font-size: 13px;
-        line-height: 16px;
-        padding: 5px 15px;
-        background-color: #111;
-        color: rgb(238, 224, 224);
-        font-weight: 400;
-        height: 3vh;
-    }
+  .section-1-grid,
+  .grid-willow,
+  .section-2,
+  .main-last-box {
+    display: grid;
+  }
 
-    .top-nav-ltaside {
-        width: 50vw;
-    }
+  .section-1-grid,
+  .grid-willow,
+  .main-last-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    .top-nav-rtaside {
-        width: 30vw;
-    }
+  .top-nav-container {
+    position: absolute;
+    width: 100%;
+    height: 7vh;
+    overflow: hidden;
+  }
 
-    .top-2-container {
-        align-items: flex-start;
-        height: 5.85vh;
-        background-color: #fff;
-        
-    }
+  .top-nav {
+    width: 90vw;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 5px 15px;
+    background-color: #111;
+    color: rgb(238, 224, 224);
+    font-weight: 400;
+    height: 3vh;
+  }
 
-    .search-m {
-        border-left: .1px solid rgb(185, 179, 179);
-        border-right: 1px solid rgb(185, 179, 179);
-        padding: 12px;
-    }
+  .top-nav-ltaside {
+    width: 50vw;
+  }
 
-    .top-2-nav {
-        justify-content: space-around;
-        width: 75vw;
-        color: rgb(168, 158, 158);
-        font-weight: 600;  
-        height: 3.3vh;
-        align-items: flex-end; 
-        
-    }
+  .top-nav-rtaside {
+    width: 30vw;
+  }
 
-   .logo-media {
-       display: block;
-   }
+  .top-2-container {
+    align-items: flex-start;
+    height: 5.85vh;
+    background-color: #fff;
+  }
 
-   .logo-media img {
-       height: 9vh;
-       width: 10vw;
-   } 
+  .search-m {
+    border-left: 0.1px solid rgb(185, 179, 179);
+    border-right: 1px solid rgb(185, 179, 179);
+    padding: 12px;
+  }
 
-    .image-pad {
-        overflow: hidden;
-    }
+  .top-2-nav {
+    justify-content: space-around;
+    width: 75vw;
+    color: rgb(168, 158, 158);
+    font-weight: 600;
+    height: 3.3vh;
+    align-items: flex-end;
+  }
 
-    .medi-col {
-        flex-direction: column;
-        width:40%;
-        height: 65vh;
-        justify-content: center;
-    }
+  .logo-media {
+    display: block;
+  }
 
-    .medicine-1 {
-        height:55vh;
-        width:60%;
-        
-    }
+  .logo-media img {
+    height: 9vh;
+    width: 10vw;
+  }
 
-    .medicine-2 {
-        width: 88%;
-        height: 22vh;
-        margin-bottom: 0;
-    }
+  .image-pad {
+    overflow: hidden;
+  }
 
-    .medicine-3 {
-        width: 88%;
-        height: 20vh;
-    }
+  .medi-col {
+    flex-direction: column;
+    width: 40%;
+    height: 65vh;
+    justify-content: center;
+  }
 
- .satoshi {
-    width: 35%; 
+  .medicine-1 {
+    height: 55vh;
+    width: 60%;
+  }
+
+  .medicine-2 {
+    width: 88%;
+    height: 22vh;
+    margin-bottom: 0;
+  }
+
+  .medicine-3 {
+    width: 88%;
+    height: 20vh;
+  }
+
+  .satoshi {
+    width: 35%;
     font-size: 13px;
   }
 
   .satochi-container {
-      display: block;
-      width: 31vw;
-      overflow: hidden;
-      padding: 8px;
+    display: block;
+    width: 31vw;
+    overflow: hidden;
+    padding: 8px;
   }
 
   .satoshi-1 {
-      position: absolute;
-      color: #fff;
-      height: 30vh;
-      width: 30vw;
-      justify-content: center;
-      align-items: flex-start;
-      flex-flow: column wrap;
-      font-size: 13px;
-
+    position: absolute;
+    color: #fff;
+    height: 30vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    font-size: 13px;
   }
 
-    .section-1-grid {
-        margin: 0;
-     }
-        .section-1 {
-            flex-direction: column;
-            width:100px;
-        }
-        .section-1-text{
-            width: 200px;
-        }
-        .section-1 img {
-         width: 30vw;
-         height: 25vh;
-     }
-    
-        .funding-m-container {
-            flex-direction: column;
-    
-        }
-    
-        .top-funding {
-            width: 53%;
-            font-size: 16px;
-        }
-    
-        .index {
-            height: 3.9vh;
-            align-items: flex-start;
-            height: 6vh;
+  .section-1-grid {
+    margin: 0;
+  }
 
-        }
-    
-        .index .fas {
-            align-items: center;
-            height: 2.8vh;
-            font-weight: 700;
-        }
-    
-        .more {
-            height: 10vh;
-            flex-direction: column;
-            justify-content: space-around;
-            color: #f42; 
-            margin-bottom: 27px;
-          }
-    
-          .grid-willow {
-              gap: 20px;
-          }
-    
-         
-    
-          .italic img {
-            position: absolute;
-            width: 60px;
-            height: 7vh;
-            margin: 10px 0 0 10px;
-        }
-    
-            .section-2 {
-              grid-template-columns: repeat(2, 1fr);
-              gap: 20px;  
-            }
-       
-            .latest{
-                margin-top:2px;
-                height: auto;
-            }
+  .section-1 {
+    flex-direction: column;
+    width: 100px;
+  }
 
-            .main-last-box {
-               gap: 5px;
-            }
+  .section-1-text {
+    width: 200px;
+  }
 
-    .icons {
-        justify-content: space-evenly;
-        align-items: center;
-        width: 50%;
-        height: 8vh;   
-    }
+  .section-1 img {
+    width: 30vw;
+    height: 25vh;
+  }
 
-    .footer-text {
-        justify-content: space-around;
-        width: 40%;
-        font-size: 14px;
-        height: 7vh;
-        color: #fff;
-    }
+  .funding-m-container {
+    flex-direction: column;
+  }
 
-    .footer-bottom {
-        height: 15vh;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        font-size: 12px;
-    }
+  .top-funding {
+    width: 53%;
+    font-size: 16px;
+  }
 
-    .bold { 
-        font-size: 15px;  
-    }
-} 
+  .index {
+    height: 3.9vh;
+    align-items: flex-start;
+  }
 
- @media only screen and (min-width: 1000px) {
+  .index .fas {
+    align-items: center;
+    height: 2.8vh;
+    font-weight: 700;
+  }
 
-    .logo-media,
-    .search-m {
-        display: none;
-    }
+  .more {
+    height: 10vh;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #f42;
+    margin-bottom: 27px;
+  }
 
-    .tnw-r, .time-count, .top-2-nav-rt, .search-big,
-    .disclaimer p {
-        display: flex;
-    }
+  .grid-willow {
+    gap: 20px;
+  }
 
-    .section-1-grid, .grid-willow, 
-    .willow-2 {
-        display: grid;
-    }
+  .italic img {
+    position: absolute;
+    width: 60px;
+    height: 7vh;
+    margin: 10px 0 0 10px;
+  }
 
-    .top-nav-container {
-        flex-direction: column;   
-    }
+  .section-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 
-    .top-nav {
-        width: 100vw;   
-    }
+  .latest {
+    margin-top: 2px;
+    height: auto;
+  }
 
-    .top-nav-ltaside {
-        width: 25vw;
-        justify-content: space-between;
-    }
+  .main-last-box {
+    gap: 5px;
+  }
 
-    .top-nav-rtaside {
-        width: 15vw;
-        justify-content: space-around;
-    }
+  .icons {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 8vh;
+  }
 
-    .tnw-r {
-        align-items: center;
-        font-weight: 700;
-        line-height: 15px;
-    }
+  .footer-text {
+    justify-content: space-around;
+    width: 40%;
+    font-size: 14px;
+    height: 7vh;
+    color: #fff;
+  }
 
-    .tnw-r p {
-        font-size: 18px;
-    }
+  .footer-bottom {
+    height: 15vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
 
-    .tnw-r img {
-        width: 5vw;
-    }
+  .bold {
+    font-size: 15px;
+  }
+}
 
-    .time-count {
-        text-align: center;
-        align-items: center;
-        line-height: 25px;
-        color: #ff0000;
-    }
+@media only screen and (min-width: 1000px) {
+  .logo-media,
+  .search-m {
+    display: none;
+  }
 
-    .tickets {
-        display: block;
-        background-color: #0cc;
-        color: #fff;
-        font-weight: 700; 
-        border-radius: 3px;
-        text-align: center;
-        font-size: 11px;
-        line-height: 28px;  
-        padding: 0 12px;
-    }
+  .tnw-r,
+  .time-count,
+  .top-2-nav-rt,
+  .search-big,
+  .disclaimer p {
+    display: flex;
+  }
 
-    .top-2-container {
-        height: 7.85vh;
-        align-items: center;
-        
-    }
+  .section-1-grid,
+  .grid-willow,
+  .willow-2 {
+    display: grid;
+  }
 
-    .top-2-nav {
-        width: 50vw;
-        font-weight: 400;  
-        align-items: flex-start;
-        height: 6vh; 
-        font-size: 15px; 
-    }
+  .top-nav-container {
+    flex-direction: column;
+  }
 
-    .top-2-nav-rt {
-        width: 30vw;
-        height: 7vh;
-        align-items: flex-start;
-        justify-content: space-around;
-    }
+  .top-nav {
+    width: 100vw;
+  }
 
-    .shift {
-        display: block;
-    }
+  .top-nav-ltaside {
+    width: 25vw;
+    justify-content: space-between;
+  }
 
-    .search-big {
-        height: 4.2vh;
-        justify-content: center;
-        align-items: center;
-        border-left: 1px solid rgb(226, 213, 213);
-        padding: 10px;
-    }
+  .top-nav-rtaside {
+    width: 15vw;
+    justify-content: space-around;
+  }
 
-    .disclaimer p {
-        justify-content: flex-start;
-        width: 97%;
-        height: 5vh;
-        align-items: flex-end;
-        line-height: 25px;
-    }
+  .tnw-r {
+    align-items: center;
+    font-weight: 700;
+    line-height: 15px;
+  }
 
-    .fa-arrow-right {
-        height: 3vh;
-    }
-  
-    .medicine-1 {
-        height: 74.78vh; 
-    }
+  .tnw-r p {
+    font-size: 18px;
+  }
 
-    .medicine-2 {
-        height: 105vh; 
-        width: 94%; 
-    }
+  .tnw-r img {
+    width: 5vw;
+  }
 
-    .medicine-3 {   
-        height: 105vh;
-        margin-bottom: 0;
-        width: 94%; 
-    }
+  .time-count {
+    text-align: center;
+    align-items: center;
+    line-height: 25px;
+    color: #f00;
+  }
 
-    .image-pad {
-        align-items: flex-end;
-        height: 90vh;
-        margin-bottom: 40px;
-    }
+  .tickets {
+    display: block;
+    background-color: #0cc;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 28px;
+    padding: 0 12px;
+  }
 
-    .medi-col {
-        height: 78.4vh;
-        justify-content:center;
-    }
+  .top-2-container {
+    height: 7.85vh;
+    align-items: center;
+  }
 
-    .satoshi {
-        height: 30vh;
-      }
+  .top-2-nav {
+    width: 50vw;
+    font-weight: 400;
+    align-items: flex-start;
+    height: 6vh;
+    font-size: 15px;
+  }
 
-      .satoshi-1 {
-        color: #fff;
-        height: 38vh;
-        justify-content: flex-end;   
-    }
+  .top-2-nav-rt {
+    width: 30vw;
+    height: 7vh;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
 
-    .section-1-grid {
-        grid-template-columns: repeat(4,1fr);
-        gap: 20px;
-     }
+  .shift {
+    display: block;
+  }
 
-        .funding-m-container {
-            flex-direction: row;
-            justify-content: space-between;
-        }
-    
-        .top-funding {
-            width: 26%;
-        }
-    
-        .index {
-            height: 4.3vh;
-        }
-    
-        .index .fas {
-            margin-top: 3px;
-            height: 3.2vh;
-        }
-    
-        .more {
-            flex-direction: row-reverse;
-            justify-content: flex-start;
-            color: #f42; 
-            height:auto;
-            width:50%;
-            font-size: 20px;  
-          }
-    
-          .border{
-              border-right: 1px solid red;
-          }
-          .info
-           {
-              width: 80px;
-          }
-          .updates {
-              width:200px;
-              text-align: center;
-              
-          }
-          .see-more{
-            width:100px;
-            text-align: center;
-        
-          }
+  .search-big {
+    height: 4.2vh;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(226, 213, 213);
+    padding: 10px;
+  }
 
+  .disclaimer p {
+    justify-content: flex-start;
+    width: 97%;
+    height: 5vh;
+    align-items: flex-end;
+    line-height: 25px;
+  }
 
-    .grid-willow {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-    }
+  .fa-arrow-right {
+    height: 3vh;
+  }
 
-    .section-2 {
-        grid-template-columns:repeat(3,1fr) ;
-    }
+  .medicine-1 {
+    height: 74.78vh;
+  }
 
-    .latest {
-        margin-top:5px;
-        height:14vh;
-    }
+  .medicine-2 {
+    height: 105vh;
+    width: 94%;
+  }
 
-    .satoshi {
-        width: 30%;
-        flex-wrap: wrap;
-    }
+  .medicine-3 {
+    height: 105vh;
+    margin-bottom: 0;
+    width: 94%;
+  }
 
-    .main-last-box { 
-        grid-template-columns: repeat(4, 1fr);
-        gap:20px;
-    }
+  .image-pad {
+    align-items: flex-end;
+    height: 90vh;
+    margin-bottom: 40px;
+  }
 
-    .section-1 {
-        width: auto;
-    }
+  .medi-col {
+    height: 78.4vh;
+    justify-content: center;
+  }
 
-    .section-1 img {
-        width:100%;
-    }
+  .satoshi {
+    height: 30vh;
+    width: 30%;
+    flex-wrap: wrap;
+  }
 
-    .section-1-text {
-        width:100%;
-    }
+  .satoshi-1 {
+    color: #fff;
+    height: 38vh;
+    justify-content: flex-end;
+  }
 
-    .see{
-        font-size:20px;
-    }
+  .section-1-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
 
-     .icons{
-        
-         width: 25%;
-         font-size: 16px;
-     }
+  .funding-m-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-     .footer-text{
-         width: 23%;
-     }
- }
+  .top-funding {
+    width: 26%;
+  }
+
+  .index {
+    height: 4.3vh;
+  }
+
+  .index .fas {
+    margin-top: 3px;
+    height: 3.2vh;
+  }
+
+  .more {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    color: #f42;
+    height: auto;
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .border {
+    border-right: 1px solid red;
+  }
+
+  .info {
+    width: 80px;
+  }
+
+  .updates {
+    width: 200px;
+    text-align: center;
+  }
+
+  .see-more {
+    width: 100px;
+    text-align: center;
+  }
+
+  .grid-willow {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .section-2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest {
+    margin-top: 5px;
+    height: 14vh;
+  }
+
+  .main-last-box {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .section-1 {
+    width: auto;
+  }
+
+  .section-1 img {
+    width: 100%;
+  }
+
+  .section-1-text {
+    width: 100%;
+  }
+
+  .see {
+    font-size: 20px;
+  }
+
+  .icons {
+    width: 25%;
+    font-size: 16px;
+  }
+
+  .footer-text {
+    width: 23%;
+  }
+}
