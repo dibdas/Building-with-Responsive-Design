@@ -325,7 +325,8 @@ ul li::before {
   flex-direction: column;
   justify-content: space-around;
   height: 20vh;
-  background-color: rgba(7, 6, 6, 0.815);
+  background-color: black;
+  border: 1px solid white;
 }
 
 .icons {
@@ -357,6 +358,7 @@ ul li::before {
   color: #fff;
   font-size: 13px;
   background-color: #111;
+  border: 1px solid white;
 }
 
 .bold {
@@ -364,6 +366,12 @@ ul li::before {
   font-weight: bolder;
   font-size: 16px;
   cursor: pointer;
+  border: 1px white;
+}
+.bold img{
+    width: 30px;
+    margin: 5px 0 0 0 ;
+    border: 1px white;
 }
 
 .top-nav-container,
@@ -560,6 +568,7 @@ ul li::before {
   .top-funding {
     width: 53%;
     font-size: 16px;
+    border:1px solid green;
   }
 
   .index {
@@ -660,6 +669,7 @@ ul li::before {
 
   .top-nav {
     width: 100vw;
+    height: auto;
   }
 
   .top-nav-ltaside {
@@ -736,17 +746,27 @@ ul li::before {
     border-left: 1px solid rgb(226, 213, 213);
     padding: 10px;
   }
+  .disclaimer {
+      margin-top: 10px;
+      border:1px solid red;
+  }
 
   .disclaimer p {
     justify-content: flex-start;
     width: 97%;
-    height: 5vh;
+    
     align-items: flex-end;
     line-height: 25px;
   }
 
   .fa-arrow-right {
     height: 3vh;
+  }
+  .fas-yellow {
+      margin-left: 6px;
+      padding-top: 2px;
+      font-size: 10px;
+    
   }
 
   .medicine-1 {
@@ -798,15 +818,16 @@ ul li::before {
   }
 
   .top-funding {
-    width: 26%;
+    width: 32.4%;
   }
 
   .index {
     height: 4.3vh;
+    padding-top: 1px;
   }
 
   .index .fas {
-    margin-top: 3px;
+    margin-top: 6px;
     height: 3.2vh;
   }
 
@@ -880,4 +901,6 @@ ul li::before {
   .footer-text {
     width: 23%;
   }
+  
+  
 }
