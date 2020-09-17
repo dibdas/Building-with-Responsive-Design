@@ -143,6 +143,7 @@ header {
   margin-bottom: 18px;
 }
 
+
 .latest-news h2 {
   padding-right: 10px;
   font-weight: 900;
@@ -402,9 +403,6 @@ ul li::before {
     color: #fff;
     font-weight: 900;
 }
-
-
-
 
 
 .top-nav-container,
