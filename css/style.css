@@ -437,6 +437,7 @@ ul li::before {
   .image-pad,
   .medi-col,
   .satoshi-1,
+  .satoshi-2
   .section-1,
   .funding-m-container,
   .top-funding,
@@ -616,7 +617,6 @@ ul li::before {
   .top-funding {
     width: 53%;
     font-size: 16px;
-    border:1px solid green;
   }
 
   .index {
@@ -784,7 +784,7 @@ ul li::before {
   }
 
   .top-2-container {
-    height: 7.85vh;
+    height: 6.85vh;
     align-items: center;
   }
 
@@ -794,6 +794,7 @@ ul li::before {
     align-items: flex-start;
     height: 6vh;
     font-size: 15px;
+    
   }
 
   .top-2-nav-rt {
@@ -815,17 +816,24 @@ ul li::before {
     padding: 10px;
   }
   .disclaimer {
-      margin-top: 10px;
-      border:1px solid red;
+      margin-top: 8px;
+      justify-content: flex-start;
+      align-items: center;
   }
 
   .disclaimer p {
-    justify-content: flex-start;
-    width: 97%;
-    
-    align-items: flex-end;
+    width: 28%;
+    justify-content: flex-end;
     line-height: 25px;
   }
+
+  .disclaimer .fas {
+    height: 3.1vh; 
+    width: 2vw;
+    justify-content: center;
+    padding-top: 3px;
+    
+}
 
   .fa-arrow-right {
     height: 3vh;
@@ -867,12 +875,26 @@ ul li::before {
     height: 30vh;
     width: 30%;
     flex-wrap: wrap;
+    font-size:22px;
+
   }
 
   .satoshi-1 {
-    color: #fff;
     height: 38vh;
-    justify-content: flex-end;
+    font-size: 18px;
+  }
+  
+  .satoshi-2{
+    position: absolute;
+    color: #fff;
+    height: 20vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    margin:20em 0 0 10px ;
+    font-size: 18px;
+      flex-wrap: wrap;
   }
 
   .section-1-grid {
@@ -946,6 +968,7 @@ ul li::before {
   }
 
   .section-1 {
+    display: flex;
     width: auto;
   }
 
@@ -954,7 +977,8 @@ ul li::before {
   }
 
   .section-1-text {
-    width: 100%;
+    width: auto;
+    flex-direction: column;
   }
 
   .see {
@@ -970,5 +994,15 @@ ul li::before {
     width: 23%;
   }
   
+  .footer-bottom {
+    font-size: 16px; 
+    color:grey;
+  }
+
+.made {
+    width:200px;
+    width:auto;
+}
+
   
 }
