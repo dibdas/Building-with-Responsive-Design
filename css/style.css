@@ -109,6 +109,7 @@ header {
 .image-container {
   width: 100vw;
   margin-right: 20px;
+  /*border: 1px solid red;*/
 }
 
 .medicine {
@@ -116,6 +117,7 @@ header {
   background-position: center;
   background-size: cover;
   height: 40vh;
+  /*border: 1px solid purple;*/
 }
 
 .medicine-1 {
@@ -277,11 +279,27 @@ header {
   justify-content: flex-end;
   line-height: 28px;
   padding-left: 12px;
+  /*border: 1px solid blue;*/
+}
+
+.satoshi-2 {
+    /*border: 1px solid #f00;*/
+    position: absolute;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 37vh;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 10px;
+    line-height: 30px;
 }
 
 .satoshi > p {
   font-size: 13px;
   font-weight: 100;
+  /*border: 1px solid hotpink;*/
 }
 
 .latest {
@@ -347,7 +365,7 @@ ul li::before {
   justify-content: space-around;
   height: 22vh;
   background-color: #131313;
-  /*border: 1px solid white;*/
+  /*border: 1px solid red*/;
 }
 
 .icons {
@@ -433,7 +451,7 @@ ul li::before {
   .image-pad,
   .medi-col,
   .satoshi-1,
-  .satoshi-2
+  /*.satoshi-2*/
   .section-1,
   .funding-m-container,
   .top-funding,
@@ -473,6 +491,8 @@ ul li::before {
     width: 100%;
     height: 7vh;
     overflow: hidden;
+    /*border: 1px solid purple;*/
+    /*justify-content: flex-start;*/
   }
 
   .top-nav {
@@ -484,6 +504,11 @@ ul li::before {
     color: rgb(238, 224, 224);
     font-weight: 400;
     height: 3vh;
+  }
+
+  .top-nav-right {
+      /*border: 5px solid red;*/
+      width: 98%;
   }
 
   .top-nav-ltaside {
@@ -498,6 +523,9 @@ ul li::before {
     align-items: flex-start;
     height: 5.85vh;
     background-color: #fff;
+    /*justify-content: flex-start;*/
+    /*border: 1px solid green;*/
+    width: 90vw;
   }
 
   .search-m {
@@ -513,6 +541,7 @@ ul li::before {
     font-weight: 600;
     height: 3.3vh;
     align-items: flex-end;
+    /*border: 4px solid hotpink;*/
   }
 
   .logo-media {
@@ -524,9 +553,13 @@ ul li::before {
   .logo-media img {
     height: 7vh;
     width: 10vw;
-    /*border: 1px solid yellow;*/
+    /*border: 3px solid yellow;*/
     /*background-size: cover;*/
     align-items: center;
+  }
+
+  .disclaimer {
+    height: 6vh;
   }
 
   .disclaimer .fas {
@@ -534,9 +567,8 @@ ul li::before {
     height: 3.1vh; 
     width: 3vw;
     justify-content: center;
-    padding-top: 5px;
-    
-}
+    padding-top: 5px;    
+ }
 
   .image-pad {
     overflow: hidden;
@@ -585,25 +617,42 @@ ul li::before {
     justify-content: center;
     align-items: flex-start;
     flex-flow: column wrap;
-    font-size: 13px;
+    font-size: 15px;
+    /*border: 1px solid purple;*/
   }
+
+  /*.satoshi {
+    height: 52vh;
+    width: 60vw;
+    line-height: 38px;
+    font-size: 27px;
+    /*border: 1px solid blue;*/
+  }*/
+  
+  
 
   .section-1-grid {
     margin: 0;
+    gap: 20px;
   }
 
   .section-1 {
+    display: flex;
     flex-direction: column;
-    width: 100px;
+    /*width: 100px;*/
+    /*border: 1px solid red;*/
   }
 
   .section-1-text {
-    width: 200px;
+    width: 90%;
+    /*border: 1px solid purple;*/
+    font-size: 16px;
   }
 
   .section-1 img {
     width: 30vw;
-    height: 25vh;
+    height: 20vh;
+    /*border: 3px solid green;*/
   }
 
   .funding-m-container {
@@ -673,6 +722,7 @@ ul li::before {
     font-size: 14px;
     height: 7vh;
     color: #fff;
+    /*border: 1px solid red;*/
   }
 
   .icon-container {
@@ -684,25 +734,30 @@ ul li::before {
     flex-direction: row;
     align-items: flex-start;
     font-size: 14px;
-   /* border: 1px solid red;*/   
+    /*border: 1px solid red;*/  
   }
 
   .bold-wrapper {
     align-items: center; 
-    /*border: 1px solid red;*/  
+    /*border: 1px solid purple;*/
+    height: 7vh; 
   }
   
    .made {
        width: 16vh;
        display: flex;
-       height: 5vh;
+       height: 7vh;
        align-items: center;
        /*border: 1px solid purple;*/
    }
 
    .bold-text {
     margin-left: 5px;
-}
+  }
+
+  .made .fas {
+      padding-left: 2px;
+  }
 }
 
   
@@ -729,16 +784,24 @@ ul li::before {
 
   .top-nav-container {
     flex-direction: column;
+    /*border: 1px solid red;*/
+    height: 8vh;
+    /*width: 100%;*/
+    /*margin: 0;
+    padding: 0;*/
+    position: absolute;
+    background-color: #fff;
   }
 
   .top-nav {
     width: 100vw;
-    height: auto;
+    /*height: auto;*/
   }
 
   .top-nav-ltaside {
     width: 25vw;
     justify-content: space-between;
+   
   }
 
   .top-nav-rtaside {
@@ -780,24 +843,31 @@ ul li::before {
   }
 
   .top-2-container {
-    height: 6.85vh;
+    height: 6.96vh;
     align-items: center;
+    width: 100vw;
+    border: 1px solid green;
   }
 
   .top-2-nav {
     width: 50vw;
     font-weight: 400;
-    align-items: flex-start;
-    height: 6vh;
+    align-items: center;
+    height: 7vh;
     font-size: 15px;
-    
+    /*border: 1px solid blue;*/
+    margin-bottom: 10px; 
   }
 
   .top-2-nav-rt {
-    width: 30vw;
+    width: 32vw;
     height: 7vh;
     align-items: flex-start;
     justify-content: space-around;
+    align-items: center;
+    /*border: 3px solid purple;*/
+    margin-bottom: 11px;
+    padding-right: 5px;
   }
 
   .shift {
@@ -805,16 +875,20 @@ ul li::before {
   }
 
   .search-big {
-    height: 4.2vh;
+    height: 4.5vh;
     justify-content: center;
     align-items: center;
     border-left: 1px solid rgb(226, 213, 213);
-    padding: 10px;
+    padding: 15px 12px 12px 12px;
+    /*border: 1px solid green;*/
   }
   .disclaimer {
-      margin-top: 8px;
+      /*margin-top: 8px;*/
       justify-content: flex-start;
       align-items: center;
+      /*z-index: 10;*/
+      /*border: 3px solid black;*/
+      /*position: fixed;*/
   }
 
   .disclaimer p {
@@ -834,6 +908,7 @@ ul li::before {
   .fa-arrow-right {
     height: 3vh;
   }
+
   .fas-yellow {
       margin-left: 6px;
       padding-top: 2px;
@@ -843,6 +918,7 @@ ul li::before {
 
   .medicine-1 {
     height: 74.78vh;
+    border: 1px solid red;
   }
 
   .medicine-2 {
@@ -860,37 +936,58 @@ ul li::before {
     align-items: flex-end;
     height: 90vh;
     margin-bottom: 40px;
+    border: 3px solid green;
   }
 
   .medi-col {
     height: 78.4vh;
     justify-content: center;
+    border: 4px solid purple;
   }
 
-  .satoshi {
-    height: 30vh;
-    width: 30%;
+  /* .satoshi-4 {
+    height: 50vh;
+    width: 45%;
     flex-wrap: wrap;
-    font-size:22px;
-
+    font-size: 30px;
+    line-height: 40px;
+    /*border: 1px solid white;*/
   }
 
-  .satoshi-1 {
+  .satoshi-4 h3 {
+      font-size: 18px;
+  }*/
+
+  .medi-col .satoshi-1 {
     height: 38vh;
-    font-size: 18px;
+    width: 30vw;
+    justify-content: flex-end;
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  .satoshi-1 h3 {
+      display: none;
+  }
+
+  .medi-col .satoshi-1 p {
+    font-size: 14px; 
   }
   
-  .satoshi-2{
-    position: absolute;
-    color: #fff;
-    height: 20vh;
-    width: 30vw;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: column wrap;
-    margin:20em 0 0 10px ;
-    font-size: 18px;
-      flex-wrap: wrap;
+  .medi-col .satoshi-2{
+    height: 75vh;
+    width: 32vw;
+    font-size: 20px;
+    line-height: 40px;
+    /*border: 1px solid red;*/
+  }
+
+  .medi-col .satoshi-2 h3 {
+      font-size: 18px;
+  }
+
+  .medi-col .satoshi-2 p {
+      font-size: 14px;
   }
 
   .section-1-grid {
