@@ -32,6 +32,7 @@
   color: #f42;
 }
 
+
 /* Nav bar section */
 .nav-bar {
   height: 7vh;
@@ -136,6 +137,22 @@ header {
   background-image: url("../images/6.jpeg");
   margin: 10px;
   width: 95vw;
+}
+.nakaboto-1,
+.nakaboto-4,
+.nakaboto-3 {
+  position: absolute;
+  color: #fff;
+  height: 40vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 28px;
+  padding-left: 25px;
+}
+
+.nakaboto-3{
+  display: flex;
+
 }
 
 .latest-news {
@@ -283,17 +300,11 @@ header {
 }
 
 .satoshi-2 {
-    /*border: 1px solid #f00;*/
+    border: 1px solid green;
     position: absolute;
     color: #fff;
     display: flex;
-    flex-direction: column;
-    width: 90vw;
-    height: 37vh;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding-left: 10px;
-    line-height: 30px;
+    margin-bottom: 80px;
 }
 
 .satoshi > p {
@@ -442,6 +453,7 @@ ul li::before {
     display: none;
   }
 
+
   .top-nav-container,
   .top-nav,
   .top-nav-ltaside,
@@ -484,6 +496,7 @@ ul li::before {
   .grid-willow,
   .main-last-box {
     grid-template-columns: repeat(3, 1fr);
+
   }
 
   .top-nav-container {
@@ -597,6 +610,29 @@ ul li::before {
     height: 20vh;
   }
 
+  .nakaboto-1 {
+  width: 40vw;
+  height: 50vh;
+  line-height: 30px;
+  font-size: 20px;
+
+}
+
+  .nakaboto-3,
+  .nakaboto-4{
+    width: 35vw;
+  height: 20vh;
+  line-height: 20px;
+  font-size: 15px;
+  justify-content: flex-start;
+}
+.nakaboto-4 {
+  height: 40vh;
+  justify-content: flex-end;
+
+}
+
+
   .satoshi {
     width: 35%;
     font-size: 13px;
@@ -618,7 +654,8 @@ ul li::before {
     align-items: flex-start;
     flex-flow: column wrap;
     font-size: 15px;
-    /*border: 1px solid purple;*/
+    border: 1px solid purple;
+    margin-bottom: 20px;
   }
 
   /*.satoshi {
@@ -626,9 +663,12 @@ ul li::before {
     width: 60vw;
     line-height: 38px;
     font-size: 27px;
-    /*border: 1px solid blue;*/
-  }*/
-  
+    /*border: 1px solid blue;
+  } */
+  .satoshi-2{
+    border:2px solid white;
+    height: 10vh;
+  }
   
 
   .section-1-grid {
@@ -660,6 +700,7 @@ ul li::before {
   }
 
   .top-funding {
+    border:1px solid green;
     width: 53%;
     font-size: 16px;
   }
@@ -676,12 +717,19 @@ ul li::before {
   }
 
   .more {
+    border: 1px solid green;
     height: 10vh;
     flex-direction: column;
     justify-content: space-around;
     color: #f42;
     margin-bottom: 27px;
   }
+
+  .updates{
+    display: block;
+  }
+
+  
 
   .grid-willow {
     gap: 20px;
@@ -780,6 +828,10 @@ ul li::before {
   .grid-willow,
   .willow-2 {
     display: grid;
+  }
+
+  .willow-2 {
+    display:unset;
   }
 
   .top-nav-container {
@@ -882,6 +934,7 @@ ul li::before {
     padding: 15px 12px 12px 12px;
     /*border: 1px solid green;*/
   }
+
   .disclaimer {
       /*margin-top: 8px;*/
       justify-content: flex-start;
@@ -945,18 +998,38 @@ ul li::before {
     border: 4px solid purple;
   }
 
-  /* .satoshi-4 {
+  .nakaboto-3,
+  .nakaboto-4{
+  height: 42vh;
+  line-height: 30px;
+  font-size: 15px;
+  border: 1px solid green;
+  justify-content: flex-start;
+}
+.nakaboto-4{
+  border: 1px solid red;
+  height:78vh;
+  justify-content: flex-end;
+}
+
+  }
+  /*
+  .satoshi {
+    font-size: 18px;
+  }
+
+   .satoshi-4 {
     height: 50vh;
     width: 45%;
     flex-wrap: wrap;
     font-size: 30px;
     line-height: 40px;
-    /*border: 1px solid white;*/
-  }
-
+    /*border: 1px solid white;}*/
+  
+/*
   .satoshi-4 h3 {
       font-size: 18px;
-  }*/
+  }
 
   .medi-col .satoshi-1 {
     height: 38vh;
@@ -975,11 +1048,14 @@ ul li::before {
   }
   
   .medi-col .satoshi-2{
-    height: 75vh;
+    margin-top:200px;
+    height: 30vh;
     width: 32vw;
     font-size: 20px;
     line-height: 40px;
-    /*border: 1px solid red;*/
+    border: 1px solid green;
+    justify-content: flex-end;
+    
   }
 
   .medi-col .satoshi-2 h3 {
@@ -989,7 +1065,7 @@ ul li::before {
   .medi-col .satoshi-2 p {
       font-size: 14px;
   }
-
+*/
   .section-1-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -1002,6 +1078,7 @@ ul li::before {
 
   .top-funding {
     width: 32.4%;
+    font-size: 16px;
   }
 
   .index {
@@ -1024,6 +1101,7 @@ ul li::before {
   }
 
   .border {
+    display: block;
     border-right: 1px solid red;
   }
 
