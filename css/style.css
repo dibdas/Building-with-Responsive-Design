@@ -220,6 +220,7 @@ header {
 
 .index {
   justify-content: flex-start;
+  width: 50%;
 }
 
 .index h2 {
@@ -435,6 +436,126 @@ ul li::before {
   display: none;
 }
 
+@media only screen and (min-width: 760px) {
+
+.app-3,
+.programs {
+  display: none;
+}
+
+.nav-bar {
+  height: 7vh;
+  background-color: white;
+  width: 100vw;
+}
+
+header {
+  position: fixed;
+  height: 16vh;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.logo img {
+  width: 15vw;
+  height: 7vh;
+}
+
+
+
+.p-10 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 7vw;
+  height: 6.5vh;
+}
+
+.bar {
+  font-size: 16px;
+  width: 7vw;
+}
+
+.disclaimer {
+  background-color: #fd3;
+  width: 100vw;
+  height: 8vh;
+  justify-content: center;
+  display: flex;
+  font-size: 13px;
+}
+
+.disclaimer {
+  height: 6vh;
+  justify-content: flex-start;
+}
+
+.disclaimer p {
+  width: 70vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.disclaimer .fas {
+  height: 3.1vh;
+  width: 2.3vw;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.section-1-text {
+  width: 80vw;
+}
+
+.top-funding {
+  width: 69%;
+  font-size: 16px;
+  display: flex;
+
+}
+
+.index {
+  height: 5vh;
+  align-items: center;
+  width: 31vw;
+  padding-left: 4px;
+}
+
+.index .fas {
+  align-items: center;
+  height: 2.8vh;
+  font-weight: 700;
+  padding-top: 1px;
+}
+
+.latest {
+  font-size: 13px;
+  justify-content: space-between;
+}
+
+.image img {
+  height: 98px;
+}
+
+.hard-forklist {
+  width: 40vw;
+}
+
+.icons {
+  width: 45%;
+}
+
+.footer-text {
+  width: 37%;
+}
+
+}
+
 @media only screen and (min-width: 768px) {
   .app-3,
   .willow-2,
@@ -510,7 +631,7 @@ ul li::before {
     background-color: #111;
     color: rgb(238, 224, 224);
     font-weight: 400;
-    height: 3vh;
+    height: 3.5vh;
   }
 
   .top-nav-right {
@@ -518,11 +639,11 @@ ul li::before {
   }
 
   .top-nav-ltaside {
-    width: 50vw;
+    width: 45vw;
   }
 
   .top-nav-rtaside {
-    width: 30vw;
+    width: 25vw;
   }
 
   .top-2-container {
@@ -535,15 +656,17 @@ ul li::before {
   .search-m {
     border-left: 0.1px solid rgb(185, 179, 179);
     border-right: 1px solid rgb(185, 179, 179);
-    padding: 12px;
+    padding: 5px 15px 0;
+    line-height: 20px;
   }
 
   .top-2-nav {
     justify-content: space-around;
-    width: 75vw;
+    width: 58vw;
     color: rgb(168, 158, 158);
     font-weight: 600;
     height: 3.3vh;
+    font-size: 13px;
     align-items: flex-end;
   }
 
@@ -559,11 +682,18 @@ ul li::before {
 
   .disclaimer {
     height: 6vh;
+    justify-content: flex-start;
+  }
+
+  .disclaimer p {
+    width: 46vw;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .disclaimer .fas {
     height: 3.1vh;
-    width: 3vw;
+    width: 2.3vw;
     justify-content: center;
     padding-top: 5px;
   }
@@ -605,7 +735,7 @@ ul li::before {
   .nakaboto-3,
   .nakaboto-4 {
     width: 35vw;
-    height: 20vh;
+    height: 28vh;
     line-height: 20px;
     font-size: 15px;
     justify-content: flex-start;
@@ -668,10 +798,9 @@ ul li::before {
   }
 
   .index {
-    height: 3.9vh;
+    height: 4.5vh;
     align-items: center;
-    width: 31vw;
-    padding-bottom: 8px;
+    width: 39.6vw;
   }
 
   .index .fas {
@@ -682,11 +811,35 @@ ul li::before {
   }
 
   .more {
-    height: 10vh;
-    flex-direction: column;
+    height: 5vh;
+    width: 30vw;
+    flex-direction: row;
     justify-content: space-around;
     color: #f42;
     margin-bottom: 27px;
+    align-items: center;
+  }
+
+  .info,
+  .updates,
+  .see-more {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .info {
+    width: 100px;
+  }
+
+  .updates {
+    width: 200px;
+    border-right: 1px solid #f42;
+  }
+
+  .see-more {
+    width: 100px;
+    border-right: 1px solid #f42;
   }
 
   .grid-willow {
@@ -752,9 +905,9 @@ ul li::before {
   }
 
   .made {
-    width: 16vh;
+    width: 17vw;
     display: flex;
-    height: 6vh;
+    height: 6.2vh;
     align-items: flex-end;
   }
 
@@ -899,7 +1052,7 @@ ul li::before {
   }
 
   .disclaimer p {
-    width: 28%;
+    width: 22.5%;
     justify-content: flex-end;
     line-height: 25px;
   }
@@ -976,7 +1129,7 @@ ul li::before {
   }
 
   .index {
-    height: 4.3vh;
+    height: 3.3vh;
     width: 15vw;
     padding-top: 7px;
   }
@@ -997,22 +1150,29 @@ ul li::before {
     font-weight: 700;
   }
 
-  .border {
+  .info,
+  .updates,
+  .see-more {
     display: block;
-    border-right: 1px solid red;
-    height: 3vh;
+    height: 2vh;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .info {
-    width: 80px;
+    width: 100px;
+    border-right: 1px solid red;
   }
 
   .updates {
-    width: 200px;
+    width: 180px;
+    border-right: 1px solid red;
   }
 
   .see-more {
     width: 100px;
+    border-right: 1px solid #fff;
   }
 
   .grid-willow {
