@@ -328,11 +328,12 @@ header {
   background-color: rgb(241, 217, 221);
   height: 15vh;
   padding-left: 12px;
+  margin-top: 2px;
 }
 
 .image img {
   width: 90px;
-  height: 80px;
+  height: 98px;
 }
 
 .hard-forklist {
@@ -498,6 +499,16 @@ ul li::before {
     width: 2.3vw;
     justify-content: center;
     padding-top: 5px;
+  }
+
+  .programs {
+    display: block;
+    position: absolute;
+    background-color: #111;
+    color: #fff;
+    width: 15vw;
+    height: 4vh;
+    line-height: 20px;
   }
 
   .section-1-text {
@@ -676,7 +687,7 @@ ul li::before {
   }
 
   .disclaimer p {
-    width: 46vw;
+    width: 54vw;
     display: flex;
     justify-content: flex-end;
   }
@@ -895,7 +906,7 @@ ul li::before {
   }
 
   .made {
-    width: 17vw;
+    width: 21.5vw;
     display: flex;
     height: 6.2vh;
     align-items: flex-end;
